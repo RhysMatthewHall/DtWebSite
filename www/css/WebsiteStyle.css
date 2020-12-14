@@ -5,7 +5,13 @@ body{
 h1{
 	color: #ff9900;
 }
-img{
+.imageTest{
+	position: block;
+	right: 230px;
+	
+}
+.image1,.image2,.image3{
 	border: #ff9900 solid 4px;
 	border-radius: 8px;
 }
+
