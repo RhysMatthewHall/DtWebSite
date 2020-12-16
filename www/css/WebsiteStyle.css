@@ -2,10 +2,10 @@ body{
 	background-color: #00001a;
 }
 
-h1{
+.abouth1{
 	color: #ff9900;
 }
-.imageTest{
+.Logo{
 	position: block;
 	right: 230px;
 	
@@ -13,5 +13,19 @@ h1{
 .image1,.image2,.image3{
 	border: #ff9900 solid 4px;
 	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about{
+	border: 2px solid #ff9900;
+	background-color: #00001a; 
+	color: white;
+	padding: 10px 28px;
+	text-decoration: none;
+}
+.about:hover{
+	background-color:#ff9900;
+	color: black;
 }
 
