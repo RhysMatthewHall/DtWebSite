@@ -4,10 +4,41 @@
 		<title>RHall Art</title>
 	</head>
 	<body>
+		<!--Show reel JavaScript doesnt work tho :/-->
+		<script>
+			var i = 0;
+			var time = 1300;
+			var images = [];
+			
+			images[0] = 'images/snow.png';
+			images[1] = "images/Gremlin.png";
+			images[2] = "images/TimeDweller.png";
+			images[3] = "images/NwProfileRhys.png";
+			images[4] = "images/KnightFire.png";
+			images[5] = "images/JediThumbnail.png";
+			images[6] = "images/NewSamProfile.png";
+			
+			function Switch(){
+				document.Reel.src = images[i];
+				
+				if(i < images.length - 1){
+					i++;
+				} else {
+					i = 0;
+				}
+				
+				setTimeout("Switch()", time);
+				}
+				window.onload = Switch;
+			
+			
+		</script>
 		<div class= "Logo">
 			<img class = "Logo"src="images/Logo.png" alt="RHall" width= "10%" loading="eager";>
 		</div>
+		
 		<div class = "line"> </div>
+		
 		<nav>
 			<ul class = "menu">
 				<li class="home"><a href="home.html">home</a></li>				
@@ -16,9 +47,16 @@
 			</ul>
 		</nav>
 		
+		
+		
 		<div class = "HomeText">
 			<h1 = class "porth1">Welcome to my portfolio section</h1>
 		</div>
+		
+		
+		
+			<!-- View port for show reel -->
+			<img class = "Reel" height="500px" width ="900px">
 
 			<img class = "image"src="images/snow.png" alt="Rhys Hall Snow Landscape" width= "50%";>
 			<img class = "image"src="images/Gremlin.png" alt="Rhys Hall Gremlin" width= "50%";>
