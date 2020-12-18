@@ -1,14 +1,37 @@
 body{
 	background-color: #00001a;
 }
+.Logo{
+	margin-top:auto;
+	top: 10px;
+	left: 20px;
+	z-index: 1;
+	
+}
+
+.menu a{
+	display: block;
+	color: white;
+	border: 2px solid #ff9900;
+	margin-top: auto;
+	background-color: #00001a; 
+	text-decoration: none;
+	z-index: 1;
+	width: 80px;
+}
+.portfolio:hover a{
+	background-color:#ff9900;
+	color: black;
+}
+.contact:hover a{
+	background-color:#ff9900;
+	color: black;
+}
 
 .porth1,.contacth1{
 	color: #ff9900;
-}
-.Logo{
-	position: block;
-	right: 230px;
-	
+	position: relative;
+	top: 40px;
 }
 .image1,.image2,.image3{
 	border: #ff9900 solid 4px;
@@ -16,16 +39,5 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-.about{
-	border: 2px solid #ff9900;
-	background-color: #00001a; 
-	color: white;
-	padding: 10px 28px;
-	text-decoration: none;
-}
-.about:hover{
-	background-color:#ff9900;
-	color: black;
 }
 
